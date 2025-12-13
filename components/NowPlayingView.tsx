@@ -44,7 +44,7 @@ export function NowPlayingView() {
   }, [isPlayingB]);
 
 
-  const [playerMode, setPlayerMode] = useState<"player" | "queue" | "lyrics">(
+  const [playerMode, setPlayerMode] = useState<"player" | "queue" | "history" | "lyrics">(
     "player"
   );
 
